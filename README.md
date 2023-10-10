@@ -43,10 +43,11 @@ The tools below were used in the project's development:
 - 0. Install Prisma VS Code Extension (Recommended)
 - 1. Clone and set up this repository [Boilerplate Api](https://github.com/werlleyg/boilerplate-api)
 - 2. Run `npm i` or `yarn` in the project folder on your computer
-- 3. Add `.env` data
-- 4. Run `npx prisma migrate dev` and create first migration (e.g.: `create users table`)
-- 5. Run `npm run dev` or `yarn dev` 
-- 4. Your project is already running 🔭
+- 3. Add `.env` data (e.g.: postgresql settings)
+- 4. Add `docker compose up -d` data (e.g.: with postgresql image in Docker )
+- 5. Run `npx prisma migrate dev` and create first migration (e.g.: `create users table`)
+- 6. Run `npm run dev` or `yarn dev` 
+- 7. Your project is already running 🔭
 
  
 ## 📦 Folder architecture and structure
