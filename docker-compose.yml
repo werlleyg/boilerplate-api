@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  boilerplate-api-pg:
+    image: bitnami/postgresql
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRESQL_USERNAME=db_user
+      - POSTGRESQL_PASSWORD=db_password
+      - POSTGRESQL_DATABASE=my_database
