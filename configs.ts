@@ -1,1 +1,1 @@
-export const APP_PORT: number = 3334;
+export const APP_PORT: number = 3333;

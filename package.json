@@ -4,7 +4,8 @@
   "description": "boilerplate-api description",
   "main": "index.ts",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "dev:prod": "npx prisma migrate deploy && npx prisma generate && npm run dev"
   },
   "author": "Werlley Gonçalves",
   "license": "ISC",
@@ -24,5 +25,22 @@
     "@types/node": "^20.5.8",
     "prisma": "^4.16.1",
     "typescript": "^5.1.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/werlleyg/boilerplate-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "jwt",
+    "express",
+    "typescript",
+    "bcrypt",
+    "prisma",
+    "zod"
+  ],
+  "bugs": {
+    "url": "https://github.com/werlleyg/boilerplate-api/issues"
+  },
+  "homepage": "https://github.com/werlleyg/boilerplate-api#readme"
 }
